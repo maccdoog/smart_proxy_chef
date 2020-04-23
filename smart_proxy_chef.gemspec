@@ -10,9 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ['mhulan@redhat.com']
   gem.homepage      = "https://github.com/theforeman/smart_proxy_chef"
   gem.summary       = %q{Chef support for Foreman Smart-Proxy}
-  gem.description   = <<-EOS
-    Chef support for Foreman Smart-Proxy
-  EOS
+  gem.description   = ""
 
   gem.files         = Dir['{bundler.d,lib,settings.d}/**/*', 'LICENSE', 'Gemfile']
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
